@@ -41,4 +41,5 @@ vignettes/*.pdf
 # Other
 *.jpg
 data/*
-*/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+traitement_langage_naturel/fastText/*
