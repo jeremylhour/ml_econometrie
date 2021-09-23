@@ -24,10 +24,13 @@ if __name__=='__main__':
     dico = config.get('categories')
 
     for item in dico:
-        print(f'Currently downloading and parsing data for category : {item}')
-        df = pd.read_csv(base_url+dico.get(item))
-        examples = '__label__'+ item.replace(' ', '_') + ' ' + df['DESCRIP']
+        try:
+            print(f'Téléchargement en cours pour : {item}')
+            df = pd.read_csv(base_url+dico.get(item), encoding = "ISO-8859-1")
+            examples = '__label__'+ item.replace(' ', '_') + ' ' + df['DESCRIP']
 
-        with open(out_file, 'w') as f:
-            for item in examples.to_list():
-                f.write("%s\n" % unidecode(item))
+            with open(out_file, 'a') as f:
+                for item in examples.to_list():
+                    f.write("%s\n" % unidecode(str(item)))
+        except:
+            pass

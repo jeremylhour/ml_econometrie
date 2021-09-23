@@ -20,3 +20,13 @@ echo TELECHARGEMENT DES VECTEURS DE MOT ET REDUCTION DE LA DIMENSION
 cd ..
 
 echo TELECHARGEMENT DES DONNEES
+python3 data/download_data.py
+
+OUT_FILE=data/dominick_dataset.txt
+echo Lignes dans le fichier
+wc -l $OUT_FILE
+
+echo Partition aléatoire entre train et test
+shuf $OUT_FILE | split -a1 -d -l $(( $(wc -l <$OUT_FILE) * 80 / 100 )) - data/output
+mv data/output0 data/train.txt
+mv data/output1 data/test.txt
