@@ -1,0 +1,33 @@
+out_file: data/dominick_dataset.txt
+
+main_url: https://www.chicagobooth.edu/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/upc_csv-files/
+
+categories: 
+    Analgesics: upcana.csv
+    Bath Soap: upcbat.csv
+    Beer: upcber.csv
+    Bottled Juices: upcbjc.csv
+    Cereals: upccer.csv
+    Cheeses: upcche.csv
+    Cigarettes: upccig.csv
+    Cookies: upccoo.csv
+    Crackers: upccra.csv
+    Canned Soup: upccso.csv
+    Dish Detergent: upcdid.csv
+    Front-end-candies: upcfec.csv
+    Frozen Dinners: upcfrd.csv
+    Frozen Entrees: upcfre.csv
+    Frozen Juices: upcfrj.csv
+    Fabric Softeners: upcfsf.csv
+    Grooming Products: pcgro.csv
+    Laundry Detergents: upclnd.csv
+    Oatmeal: upcoat.csv
+    Paper Towels: upcptw.csv
+    Soft Drinks: upcsdr.csv
+    Shampoos: upcsha.csv
+    Snack Crackers: upcsna.csv
+    Soaps: upcsoa.csv
+    Toothbrushes: upctbr.csv
+    Canned Tuna: upctna.csv
+    Toothpastes: upctpa.csv
+    Bathroom Tissues: upctti.csv 
