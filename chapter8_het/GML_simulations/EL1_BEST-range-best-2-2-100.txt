@@ -1,0 +1,13 @@
+% latex table generated in R 3.5.3 by xtable 1.8-2 package
+% Mon Apr 15 22:43:15 2019
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllll}
+  \hline
+V1 & Elastic Net & Boosting & Nnet & Random Forest \\ 
+  \hline
+Outcome & 8.348 & 8.411 & 8.482 & 8.359 \\ 
+  Outcome & 0.888 & 0.918 & 0.959 & 0.877 \\ 
+   \hline
+\end{tabular}
+\end{table}

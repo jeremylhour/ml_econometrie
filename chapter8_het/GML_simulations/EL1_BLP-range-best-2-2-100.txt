@@ -1,0 +1,14 @@
+% latex table generated in R 3.5.3 by xtable 1.8-2 package
+% Mon Apr 15 22:43:15 2019
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllll}
+  \hline
+V1 & ATE & HET & ATE & HET \\ 
+  \hline
+Outcome & 2.756 & 0.998 & 2.756 & 0.888 \\ 
+   & (2.677,2.834) & (0.916,1.080) & (2.677,2.835) & (0.812,0.965) \\ 
+   & [0.000] & [0.000] & [0.000] & [0.000] \\ 
+   \hline
+\end{tabular}
+\end{table}
