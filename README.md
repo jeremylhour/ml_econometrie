@@ -1,4 +1,4 @@
-# ml_econometrie
+# Machine Learning pour l'économétrie
 
 Repo associé au manuel "Machine Learning pour l'économétrie" : https://www.economica.fr/machine-learning-pour-leconometrie-c2x40149680
 
@@ -20,7 +20,7 @@ Tous deux sont Administrateurs de l’Insee, chercheurs affiliés au Centre de R
 
 * * *
 
-Table des matières
+# Table des matières
 
 1. Introduction
 
@@ -55,5 +55,9 @@ PARTIE V : Économétrie des données textuelles, traitement du langage naturel
 PARTIE VI: Exercices
 
 15. Exercices
+
+* * *
+
+# Liens entre chapitres
 
 ![Graphe des liens entre chapitres](./book/graph_chapter.png)
