@@ -17,3 +17,43 @@ Christophe GAILLAC est chercheur à l’Université d’Oxford.
 Jérémy L’HOUR est chercheur chez Capital Fund Management (CFM).
 
 Tous deux sont Administrateurs de l’Insee, chercheurs affiliés au Centre de Recherche en Économie et Statistique (CREST) – Institut Polytechnique de Paris, et ont enseigné le cours de Machine learning pour l’économétrie à l’ENSAE Paris pendant plusieurs années.
+
+* * *
+
+Table des matières
+
+1. Introduction
+
+PARTIE I : Prérequis statistiques 
+
+2. Outils statistiques
+3. Prérequis sur l'inférence causale
+
+PARTIE II : Grande dimension et sélection de variables
+
+4. Grande dimension, sélection de variables et inférence post-sélection
+5. Généralisation et méthodologie
+6. Grande dimension et endogénéité : variables instrumentales
+7. Pour aller plus loin
+
+PARTIE III : Hétérogénéité des effets du traitement
+
+8. Inférence sur les effets hétérogènes du traitement
+9. Apprendre la politique optimale
+
+PARTIE IV : Effets agrégés et prévision macroéconomique
+
+10. La méthode du contrôle synthétique
+11. Prévision macroéconomique en grande dimension
+
+PARTIE V : Économétrie des données textuelles, traitement du langage naturel
+
+12. Travailler avec des données textuelles
+13. Représentation distribuée des mots
+14. Apprentissage supervisé : codage automatique et appariement
+
+PARTIE VI: Exercices
+
+15. Exercices
+
+![Graphe des liens entre chapitres](./book/graph_chapter.png)

@@ -19,7 +19,7 @@ echo TELECHARGEMENT DES DONNEES
 python3 data/download_data.py
 
 OUT_FILE=data/dominick_dataset.txt
-echo Lignes dans le fichier
+echo Nombre de lignes dans le fichier
 wc -l $OUT_FILE
 
 echo Partition aléatoire entre train et test

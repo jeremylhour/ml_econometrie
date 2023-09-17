@@ -17,7 +17,7 @@
 #' 
 #' @author Jeremy Lhour
 
-DataSim <- function(n=2000,p=50,Ry=.5,Rd=.2,Intercept=T,rho=.5,a=.5){
+DataSim <- function(n=2000, p=50, Ry=.5, Rd=.2, Intercept=T, rho=.5,a=.5){
   
   ### Covariate variance matrix
   Sigma = matrix(0,nrow=p, ncol=p)
@@ -41,11 +41,11 @@ DataSim <- function(n=2000,p=50,Ry=.5,Rd=.2,Intercept=T,rho=.5,a=.5){
   }
   
   ### Adjustment to match R.squared
-  c = sqrt((1/t(gamma)%*%Sigma%*%gamma)*(Rd/(1-Rd)))
-  gamma = c*gamma
+  const = sqrt((1/t(gamma)%*%Sigma%*%gamma)*(Rd/(1-Rd)))
+  gamma = as.vector(const)*gamma
   
-  c = sqrt((1/t(b)%*%Sigma%*%b)*(Ry/(1-Ry)))
-  b = c*b
+  const_ = sqrt((1/t(b)%*%Sigma%*%b)*(Ry/(1-Ry)))
+  b = as.vector(const_)*b
   
   ### Generate covariates
   X = mvrnorm(n = n, mu=rep(0,p), Sigma)
