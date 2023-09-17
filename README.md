@@ -1,6 +1,6 @@
 # Machine Learning pour l'économétrie
 
-![Graphe des liens entre chapitres](./ch01_intro/cover.png)
+<img src="https://github.com/jeremylhour/ml_econometrie/blob/main/ch01_intro/cover.png" width="48">
 
 Repo associé au manuel "Machine Learning pour l'économétrie" : https://www.economica.fr/machine-learning-pour-leconometrie-c2x40149680
 
