@@ -12,9 +12,9 @@ Ce livre s’adresse aux étudiants de master ou de grandes écoles, aux cherche
 
 * * *
 
-Christophe GAILLAC est chercheur à l’Université d’Oxford.
+[Christophe GAILLAC](https://www.cgaillac.com/) est chercheur à l’Université d’Oxford.
 
-Jérémy L’HOUR est chercheur chez Capital Fund Management (CFM).
+[Jérémy L’HOUR](https://sites.google.com/site/jeremylhour/home) est chercheur chez Capital Fund Management (CFM).
 
 Tous deux sont Administrateurs de l’Insee, chercheurs affiliés au Centre de Recherche en Économie et Statistique (CREST) – Institut Polytechnique de Paris, et ont enseigné le cours de Machine learning pour l’économétrie à l’ENSAE Paris pendant plusieurs années.
 
@@ -60,4 +60,18 @@ PARTIE VI: Exercices
 
 # Liens entre chapitres
 
+Afin d'aider le lecteur à se repérer dans cet ouvrage, la figure suivante donne le lien entre chaque chapitre désigné par son numéro. Une arrête allant d'un noeud vers un autre indique que le chapitre d'origine est un pré-requis pour comprendre le chapitre de destination. Outre les chapitres 2 et 3 qui ne constituent pas le coeur du propos, le lecteur peut commencer par les chapitres 4, 8, 12 qui sont les premiers chapitres des deuxième, troisième, et cinquième parties respectivement, ou bien par l'un des deux chapitres de la quatrième partie.
+
 ![Graphe des liens entre chapitres](./ch01_intro/graph_chapter.png)
+
+* * *
+
+# Eléments de correction
+
+Des élements de correction pour les problèmes présentés au chapitre 15 se trouvent dans le dossier [ch15_exercices](https://github.com/jeremylhour/ml_econometrie/tree/main/ch15_exercices/), et des éléments de correction pour les questions de fin de chapitre se trouvent dans le dossier [answers](https://github.com/jeremylhour/ml_econometrie/tree/main/answers/).
+
+* * *
+
+# Contacts
+
+Pour une question sur l'ouvrage en lui-même, le plus simple est d'ouvrir un sujet à la section [<< Issues >>](https://github.com/jeremylhour/ml_econometrie/issues) de ce repo git. Du reste, le mode de contact se trouve sur le site de chaque auteur: [lien vers le site de Christophe](https://www.cgaillac.com/), [lien vers le site de Jérémy](https://sites.google.com/site/jeremylhour/home).
