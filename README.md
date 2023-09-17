@@ -60,4 +60,4 @@ PARTIE VI: Exercices
 
 # Liens entre chapitres
 
-![Graphe des liens entre chapitres](./book/graph_chapter.png)
+![Graphe des liens entre chapitres](./ch01_intro/graph_chapter.png)
