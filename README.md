@@ -4,7 +4,7 @@
 <img src="https://github.com/jeremylhour/ml_econometrie/blob/main/ch01_intro/cover.png" width="400">
 </p>
 
-Repo associé au manuel "Machine Learning pour l'économétrie" : https://www.economica.fr/machine-learning-pour-leconometrie-c2x40149680
+Repo associé au manuel "Machine Learning pour l'économétrie" : [Acheter en ligne](https://www.economica.fr/machine-learning-pour-leconometrie-c2x40149680)
 
 *Machine learning pour l’économétrie* est un ouvrage destiné aux économistes qui souhaitent appréhender les techniques de machine learning modernes – de leurs performances en matière de prédiction au traitement révolutionnaire des données non structurées – afin d’établir des relations de causalité à partir des données.
 
